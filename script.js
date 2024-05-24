@@ -2,7 +2,7 @@ const evilButton = document.getElementById("evil-button");
 const OFFSET = 100;
 
 evilButton.addEventListener("click", () => {
-  alert("Nice Try!");
+  alert("Congrats! Here's your prize.");
   window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
 });
 
